@@ -217,21 +217,24 @@ li a:hover {
 		
 }
 
+.flex-container {
+	
+	display: flex;
+}
 
-
-#preise {
-	width: 65;
-	float: right;
-	text-align: right;
-	background-color: red;
-	height: 200;
-	font-weight: bold;
-	line-height: 1.2;
+#pizzaname {
+    flex: 1;
+    
 		
 }
 
+#preise {
+	margin-right: 20px;
+	
+}
+
 #pizza {
-	width: 205;
+	width: 1000;
 	float: left;
 	text-align: right;
 	background-color: lightgrey;
