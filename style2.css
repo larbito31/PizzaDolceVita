@@ -169,8 +169,8 @@ li a:hover {
 #container {
 
 	
-	background-color: white;
- width: max-width;
+background-color: white;
+
   
 	
 }
@@ -234,13 +234,13 @@ li a:hover {
 }
 
 #pizza {
-	width: 1000;
+	width: 0;
 	float: left;
 	text-align: right;
 	background-color: lightgrey;
-	height: 500;
+	height: 0;
 	font-weight: bold;
-	margin-left: 380;	
+	margin-left: 330;	
 	margin-right: 500;
 	margin-top: 100px;
 }

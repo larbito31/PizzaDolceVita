@@ -3,46 +3,27 @@
 		<title> Pizzeria Dolce Vita </title>
 		<link rel="stylesheet" type ="text/css" href="../style2.css" />
 		<script src="../script.js" async> </script>
-		</head>
-		<body>
-		
-
-			
-				
+	</head>
+		<body>		
 			<div id="container">
-			
-					<div id="nav" >
-					
-					
-				<ul>
-						
-
+				<div id="nav" >
+					<ul>						
 						<li><a href="ueberuns.html">Über uns</a></li>
 						<li><a href="kontakt.html">Kontakt</a></li>
 						<li><a href="bestellen.html">Online bestellen</a></li>
 						<li><a href="reservieren.html">Reservieren</a></li> 
-						<li><a href="home.html">Home</a></li>
-						
+						<li><a href="home.html">Home</a></li>						
 						<img src="../Bilder/logob.jpg" >
-						
-  
-				</ul> </div>
-						
-				
-				<hr> </hr>			
-					<div id="main">
-						<h2> Online Bestellung </h2>
-						<br>
-						<br>
-						
-						<form>
-						
-						<div id="pizza">
-						
-						<img src="../Bilder/start.png">
-						
-						</div>
-						<div id="zutaten">
+					</ul> 
+				</div>
+				<hr> </hr>					
+				<div id="main">
+					<h2> Online Bestellung </h2>
+					<br><br>																							
+					<div id="pizza">						
+						<img src="../Bilder/start.png">						
+					</div>
+					<div id="zutaten">
 						<img id="salami" src="../Bilder/salami.png" style="visibility:hidden" width="250px" height="250px"/>						
 						<img id="schinken" src="../Bilder/schinken.png" style="visibility:hidden" width="250px" height="250px"/>
 						<img id="champignons" src="../Bilder/champignons.png" style="visibility:hidden" width="250px" height="250px">
@@ -59,79 +40,42 @@
 						<img id="basilikum" src="../Bilder/basilikum.png" style="visibility:hidden" width="250px" height="250px">
 						<img id="scampi" src="../Bilder/scampi.png" style="visibility:hidden" width="250px" height="250px">
 						<img id="hackfleisch" src="../Bilder/hackfleisch.png" style="visibility:hidden" width="250px" height="250px">
-						<img id="lachs" src="../Bilder/lachs.png" style="visibility:hidden" width="250px" height="250px">
-						
-						</div>
-						<div>
-						<p> Wählen Sie Ihre gewünschten Zutaten:  <br>
-						Notiz: Bitte wählen Sie nur maximal <strong> 5  Zutaten </Strong> pro Pizza!
-						<br>
-						<br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('salami');" /> Salami <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('schinken');" /> Schinken <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('champignons');" /> Champignons <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('peperoni');" /> Peperoni <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('oliven');" /> Oliven <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('ananas');" /> Ananas <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scharfesalami');" />scharfe Salami <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('thunfisch');" />Thunfisch <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('zwiebeln');" />Zwiebeln <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('artischocken');" />Artischocken <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('rucola');" />Rucola <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('gemuese');" />Gemüse <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('kirschtomaten');" />Kirschtomaten <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('basilikum');" />Basilikum <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scampi');" />Scampi <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('hackfleisch');" />Hackfleisch <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Knoblauch <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Parmesan <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Vier Käse <br>
-						<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('lachs');" />Lachs <br>
-						
-						</div>
-			
-			<br>
-			<br>
-							
-							
-							
-							<p> Größe: <br>
-							<fieldset>
-								<input type="radio" id="klein" name="art" value="klein">
-								<label for="klein"> Klein (26cm) </label> 
-								<input type="radio" id="groß" name="art" value="groß">
-								<label for="groß"> Groß (32 cm) </label>
-								<input type="radio" id="party" name="art" value="party">
-								<label for="party"> Party (40 x 59 cm) </label>
-							</fieldset>
-						</form>
-						<br>
-						<button> <a class=selected href="bestellen2.html">Bestellen
-						
-					</div>
-
-		
-					
-
-					
-
-					
-
-						</div>
-
-					
-					
-					
-						
-
-						
-				
-
-			
-			
-		</body>
-		
-						
-				
-
+						<img id="lachs" src="../Bilder/lachs.png" style="visibility:hidden" width="250px" height="250px">						
+					</div>						
+					<p> Wählen Sie Ihre gewünschten Zutaten:  <br>
+					Notiz: Bitte wählen Sie nur maximal <strong> 5  Zutaten </Strong> pro Pizza!<br><br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('salami');" /> Salami <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('schinken');" /> Schinken <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('champignons');" /> Champignons <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('peperoni');" /> Peperoni <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('oliven');" /> Oliven <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('ananas');" /> Ananas <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scharfesalami');" />scharfe Salami <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('thunfisch');" />Thunfisch <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('zwiebeln');" />Zwiebeln <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('artischocken');" />Artischocken <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('rucola');" />Rucola <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('gemuese');" />Gemüse <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('kirschtomaten');" />Kirschtomaten <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('basilikum');" />Basilikum <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scampi');" />Scampi <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('hackfleisch');" />Hackfleisch <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Knoblauch <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Parmesan <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" />Vier Käse <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('lachs');" />Lachs <br><br><br>
+					<p> Größe: <br>
+					<fieldset>
+						<input type="radio" id="klein" name="art" value="klein">
+						<label for="klein"> Klein (26cm) </label> 
+						<input type="radio" id="groß" name="art" value="groß">
+						<label for="groß"> Groß (32 cm) </label>
+						<input type="radio" id="party" name="art" value="party">
+						<label for="party"> Party (40 x 59 cm) </label>
+					</fieldset>
+					<br>
+					<button> <a class=selected href="bestellen2.html">Bestellen						
+				</div>
+			</div>		
+		</body>								
 </html>

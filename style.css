@@ -1,208 +1,202 @@
-body {
+body
+	{
 
-	color: white;
-    background:url("Bilder/backpizza.jpg") ;
-	background-position: top center;
-	margin: 0;
-		
+		color: white;
+		background:url("Bilder/backpizza.jpg") ;
+		background-position: top center;
+		margin: 0;
+	}
 
-	
-}
-
-a {
+a 
+	{
 		text-decoration: none;
 		color: red;
-}
+	}
 
-h1, h2, h3 {
-	color: #FAC564;
-	
+h1, h2, h3 
+	{
+		color: #FAC564;	
 		margin: 0
-}
+	}
 
-h2 {
-	color: #FAC564;
-	font-size: 28;
+h2
+	{
+		color: #FAC564;
+		font-size: 28;
 	
-}
+	}
 
-h4 {
-	color: #FAC564;
-	font-size: 20;
+h4 
+	{
+		color: #FAC564;
+		font-size: 20;
+	}
 
-}
-
-h5 {
+h5 
+	{
 	color: #FAC564;
 	font-size: 35;
-	display: inline;
-	
+	display: inline;	
 	margin: 40px;
-}	
+	}	
 
-hr {
-	width: auto;
-	margin-left: 0;
-	margin: 0;
-}
-em{
-	text-decoration: underline;
-}
+hr 
+	{
+		width: auto;
+		margin-left: 0;
+		margin: 0;
+	}
+	
+em	
+	{
+		text-decoration: underline;
+	}
 
-b{
-	color: #FAC564;
-}
+b	
+	{
+		color: #FAC564;
+	}
 
-b1 {
+b1 
+	{
 		font-style: italic;
-}
+	}
 
-b2 {
-	font-size: 20;
-	color: #FAC564;
-}
+b2 
+	{
+		font-size: 20;
+		color: #FAC564;
+	}
 
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
+ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+	}
 
-li {
-  float: right;
-}
+li 
+	{
+		float: right;
+	}
 
-li a {
-  display: block;
-  color: white;
-  font-size: 22px;
-  text-align: center;
-  padding: 16px 16px 20px 20px;
-  text-decoration: none;
-}
-#speisekarte  {
+li a 
+	{
+	  display: block;
+	  color: white;
+	  font-size: 22px;
+	  text-align: center;
+	  padding: 16px 16px 20px 20px;
+	  text-decoration: none;
+	}
+#speisekarte
+	{	
+		margin-left: 200px;
+	}
+
+
+
+li a:hover 
+	{
+		background-color: #FAC564;
+	}
+
+
+
+
+.button 
+	{
+	  border: none;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 24px;
+	  font-weight: bold;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+
+
+.button1
+	{
+		margin-left: 200px;
+		background-color: #FAC564; 
+		color: black; 
+		width: 30%;
+		border-radius: 12px;
+	}
+
+.button1:hover
+	{
+	  background-color: white;
+	  color: white;
+	}
+
+.button2 
+	{
+	  margin-left: 70px;
+	  background-color: #FAC564; 
+	  color: black; 
+	  width: 80%;
+	  border-radius: 12px;
+	}
+
+.button2:hover
+	{
+	  background-color: white;
+	  color: white;
+	}
+
+.button3 
+	{
+	  margin-left: 130px;
+	  background-color: #FAC564; 
+	  color: black; 
+	  width: 60%;
+	  border-radius: 12px;
+	  font-size: 20px;
+	}
+
+.button3:hover
+	{
+		background-color: white;
+		color: white;
+	}
+
+
+#nav 
+	{	
+	top: 0;
+	}
 	
-	margin-left: 200px;
 	
+#container
+	{
+		background-color: white;
+		width: max-width;	
 }
 
 
 
-li a:hover {
-  background-color: #FAC564;
-}
 
 
-
-
-.button {
-  
-  border: none;
- 
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-   font-weight: bold;
-  
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-
-.button1 {
-  margin-left: 200px;
-  background-color: #FAC564; 
-  color: black; 
-  width: 30%;
-  border-radius: 12px;
-}
-
-.button1:hover {
-  background-color: white;
-  color: white;
-}
-
-.button2 {
-  margin-left: 70px;
-  background-color: #FAC564; 
-  color: black; 
-  width: 80%;
-  border-radius: 12px;
-}
-
-.button2:hover {
-  background-color: white;
-  color: white;
-  
-  
-}
-
-.button3 {
-  margin-left: 130px;
-  background-color: #FAC564; 
-  color: black; 
-  width: 60%;
-  border-radius: 12px;
-  font-size: 20px;
-}
-
-.button3:hover {
-  background-color: white;
-  color: white;
-  
-  
-}
-
-
-#nav {
-	
-  top: 0;
-	
-}
-#container {
-
-	
-	background-color: white;
- width: max-width;
-  
-	
-}
-
-
-#container1 {
-	background-color: lightgrey;
-	width: 800px;
-	margin-left: 500;
-	margin-right: 500;
-	height: 3554px;
-	border: 3px solid black;
-}
-
-
-
-#main {
+#main 
+	{
 	position: absolute;
 	width: auto;
 	float: center;
 	font-size: 18;
 	padding: 10px 10px 10px 10px;
+	}
 
-}
-
-
-
-
-
-#footer {
-	
-	
+#footer
+	{
 		padding: 20px;
 		background-color: #101315;
 		color: white;
@@ -210,223 +204,54 @@ li a:hover {
 		
 		height: 50px;
 		width: auto;
-		margin: 0px;
+		margin: 0px;		
+	}
 
-		
-		
-		
-}
+#bild1 
+	{
+		width: 15px;
+		float: right;
+		text-align: right;
+		background-color: lightgrey;
+		height: 15px;
+		font-weight: bold;
+		line-height: 1.2;
+		margin-left: 0px;	
+		margin-right: 500px;
+		margin-top: 10px;
+	}
 
-
-
-#preise {
-	width: 65;
-	float: right;
-	text-align: right;
-	background-color: red;
-	height: 200;
-	font-weight: bold;
-	line-height: 1.2;
-		
-}
-
-#pizza {
-	width: 100px;
-	float: right;
-	text-align: right;
-	background-color: red;
-	height: 150px;
-	font-weight: bold;
-	margin-left: 0px;	
-	margin-right: 250px;
-	margin-top: 100px;
-}
-
-#bild1 {
-	width: 15px;
-	float: right;
-	text-align: right;
-	background-color: lightgrey;
-	height: 15px;
-	font-weight: bold;
-	line-height: 1.2;
-	margin-left: 0px;	
-	margin-right: 500px;
-	margin-top: 10px;
-}
-
-#bild2 {
-	width: 15px;
-	float: left;
-	text-align: right;
-	background-color: lightgrey;
-	height: 15px;
-	font-weight: bold;
-	line-height: 1.2;
-	margin-left: 0px;	
-	margin-right: 680px;
-	margin-top: 10px;
-}
+#bild2 
+	{
+		width: 15px;
+		float: left;
+		text-align: right;
+		background-color: lightgrey;
+		height: 15px;
+		font-weight: bold;
+		line-height: 1.2;
+		margin-left: 0px;	
+		margin-right: 680px;
+		margin-top: 10px;
+	}
 	
-#bild3 {
-	width: 15px;
-	float: right;
-	text-align: right;
-	background-color: lightgrey;
-	height: 15px;
-	font-weight: bold;
-	line-height: 1.2;
-	margin-left: 0px;	
-	margin-right: 680px;
-	margin-top: 100px;
-}	
+#bild3 
+	{
+		width: 15px;
+		float: right;
+		text-align: right;
+		background-color: lightgrey;
+		height: 15px;
+		font-weight: bold;
+		line-height: 1.2;
+		margin-left: 0px;	
+		margin-right: 680px;
+		margin-top: 100px;
+	}	
 
-#zutaten {
-	position: absolute;
-	width: 200px;
-	float: right;
-	text-align: right;
-	height: 200px;
-	font-weight: bold;
-	line-height: 1.2;
-	margin-left: 50px;	
-	margin-right: 150px;
-	margin-top: -60px;
-	z-index: 4;
-}
 
-#salami {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 250px;
-	left: 350px;
-}
 
-#schinken {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 250px;
-	left: 350px;
-}
 
-#champignons {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 200px;
-	left: 350px;
-}
 
-#peperoni {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 250px;
-	left: 300px;
-}
 
-#oliven {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 270px;
-	left: 300px;
-}
 
-#ananas {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 280px;
-	left: 180px;
-}
-
-#scharfesalami {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#thunfisch {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#zwiebeln {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#artischocken {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#rucola {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#gemuese {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#kirschtomaten {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#basilikum {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#scampi {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#hackfleisch {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}
-
-#lachs {
-	position: absolute;
-	float: right;
-	z-index: 5;
-	top: 260px;
-	left: 350px;
-}

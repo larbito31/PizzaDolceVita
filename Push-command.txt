@@ -1,0 +1,8 @@
+git add .
+git commit -m "karte page fixed"
+git pull PizzaDolceVita main
+git push -u PizzaDolceVita main
+
+
+
+
