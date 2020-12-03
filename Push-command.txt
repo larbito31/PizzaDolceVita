@@ -1,3 +1,6 @@
+
+command lines github:
+
 git add .
 git commit -m "karte page fixed"
 git pull PizzaDolceVita main
